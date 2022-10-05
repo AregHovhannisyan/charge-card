@@ -1,7 +1,9 @@
+/* eslint-disable react/react-in-jsx-scope -- Unaware of jsxImportSource */
+/** @jsxImportSource @emotion/react */
 import '../styles/globals.css'
 
-function MyApp({ Component, pageProps }) {
+function ChargeApp({ Component, pageProps }) {
   return <Component {...pageProps} />
 }
 
-export default MyApp
+export default ChargeApp
